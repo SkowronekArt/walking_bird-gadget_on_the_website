@@ -12,7 +12,7 @@ import * as vars from "../variables/variables"
 import walkRight from "./2walkRight"
 
 function showOnlyWalkingBottomBird() {
-	let you_SET_delayTimeOfBirdAppear = 3000;
+	let you_SET_delayTimeOfBirdAppear = 1000;
 	
 	vars.$walkingBirdContainer.style.display = "none";
 	
