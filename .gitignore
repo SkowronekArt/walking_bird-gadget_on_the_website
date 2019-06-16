@@ -1,0 +1,6 @@
+/dist
+/node_modules
+.htaccess
+yarn*
+/.idea
+.DS_Store

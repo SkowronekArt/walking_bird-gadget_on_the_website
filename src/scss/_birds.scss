@@ -1,0 +1,24 @@
+.bird {
+	position: fixed;
+	border-top: solid thin $border-color;
+	width: 100vw;
+	height: 10px;
+	z-index: 99;
+	bottom: 0;
+
+	&__container {
+		display: none;
+		width: 220px;
+		height: 100px;
+		position: fixed;
+		bottom: 4px;
+		z-index: 99;
+		filter: drop-shadow(-5px 8px 15px);
+
+		&-image {
+			height: 100px;
+			position: fixed;
+		}
+	}
+	
+}
